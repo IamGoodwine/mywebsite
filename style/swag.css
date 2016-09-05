@@ -1,0 +1,95 @@
+/*Author: Marco Buonvino*/
+
+/*GENERAL*/
+
+/*Palette: MARS
+	#932724 Auburn
+	#E34234 Vermillion
+	#E25822 Flame
+	#1A1110 Licorice
+	#F5F5DC Beige
+	#FFFFFF White
+*/
+
+body {
+	background: #1A1110;
+	font-family: "Museo sans", sans;
+	font-weight: lighter;
+	font-size: 1.5em;
+	line-height: 1.5;
+	color: white;
+	margin: 0;
+	padding: 0;
+
+}
+
+.flex-container {
+	display:flex;
+	/*flex-direction: row;
+	flex-wrap: wrap;*/
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: center;
+}
+
+.flex-item {
+	text-align: center;
+	padding: 0 1rem;
+}
+
+.big-card {
+	flex: 1 1 100%;
+	padding: 10% 0;
+}
+
+
+.small-card {
+	/*flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 12.5em;*/
+	flex: 1 1 12.5em;
+	padding: 10% 0;
+}
+
+/*SPECIFIC*/
+
+.its-a-me {
+	order: 1;
+	/*background: #932724;*/
+	background-image: url("../images/pencils.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+}
+
+.its-a-me h2 {
+	font-size: 4em;
+}
+
+.mantra {
+	order: 2;
+	background: #E25822;
+	font-size: 2em;
+}
+
+.whomIdoUX {
+	background: #ff6700;
+}
+
+.howIdoUX {	
+	background: orange;
+}
+
+.whenIdoUX {
+	background: #ff7800;
+}
+
+.whoamI {
+	background: #E25822;
+	font-size: 3em;
+}
+
+.contactme {
+	background: #932724;
+}
