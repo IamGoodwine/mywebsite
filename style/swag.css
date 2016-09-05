@@ -30,10 +30,6 @@ body {
 
 }
 
-h1 {
-	font-size: 4rem;
-}
-
 .flex-container {
 	display:flex;
 	/*flex-direction: row;
@@ -96,13 +92,13 @@ h1 {
 }
 
 .its-a-me h2 {
-	font-size: 5rem;
+	font-size: 3rem;
 }
 
 .mantra {
 	order: 2;
 	background: #932724;
-	font-size: 2rem;
+	font-size: 3rem;
 }
 
 .whomIdoUX {
@@ -124,4 +120,19 @@ h1 {
 
 .contactme {
 	background: #1A1110;
+}
+
+/*BREAKPOINT RULES*/
+@media screen and (min-width: 1024px) {
+	h1 {
+		font-size: 4rem;
+	}
+	
+	.its-a-me h2 {
+		font-size: 5rem;
+	}
+	
+	.whoamI {
+		font-size: 4rem;
+	}
 }
