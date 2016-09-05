@@ -15,7 +15,7 @@ body {
 	background: #1A1110;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
-	font-size: 1.5em;
+	font-size: 1.5rem;
 	line-height: 1.5;
 	color: white;
 	margin: 0;
@@ -47,8 +47,8 @@ body {
 .small-card {
 	/*flex-grow: 1;
 	flex-shrink: 1;
-	flex-basis: 12.5em;*/
-	flex: 1 1 12.5em;
+	flex-basis: 12.5rem;*/
+	flex: 1 1 12.5rem;
 	padding: 10% 0;
 }
 
@@ -57,20 +57,20 @@ body {
 .its-a-me {
 	order: 1;
 	/*background: #932724;*/
-	background-image: url("../images/mars-nasa.jpeg");
-	background-size: 100%;
+	background-image: url("../images/mars-nasa.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
 	
 }
 
 .its-a-me h2 {
-	font-size: 4em;
+	font-size: 4rem;
 }
 
 .mantra {
 	order: 2;
 	background: #E25822;
-	font-size: 2em;
+	font-size: 2rem;
 }
 
 .whomIdoUX {
@@ -87,7 +87,7 @@ body {
 
 .whoamI {
 	background: #E25822;
-	font-size: 3em;
+	font-size: 3rem;
 }
 
 .contactme {
