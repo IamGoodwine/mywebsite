@@ -84,13 +84,20 @@ body {
 
 /*SPECIFIC*/
 
+.its-a-me, .whoamI {
+	background: url("../images/mars-nasa.jpg") no-repeat center center fixed;
+	-webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover; 
+}
+
 .its-a-me {
 	order: 1;
-	background: url("../images/mars-nasa.jpg") no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
 }
 
 .its-a-me h2 {
@@ -116,13 +123,7 @@ body {
 }
 
 .whoamI {
-	/*background: #B02222;*/
 	font-size: 3rem;
-	background: url("../images/mars-nasa.jpg") no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
 	padding: 16% 2%;
 }
 
