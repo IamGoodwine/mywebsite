@@ -3,10 +3,17 @@
 /*GENERAL*/
 
 /*Palette: MARS
-	#932724 Auburn
-	#E34234 Vermillion
+
+	#F4C430 Saffron
 	#E25822 Flame
+	#E2725B Terra Cotta
+	#E34234 Vermillion
+	#B02222 Fire Brick
+	#932724 Auburn
 	#1A1110 Licorice
+	#4B3621 Cafe Noir
+	#C2B280 Ecru
+	#F3E5AB Vanilla
 	#F5F5DC Beige
 	#FFFFFF White
 */
@@ -21,6 +28,10 @@ body {
 	margin: 0;
 	padding: 0;
 
+}
+
+h1 {
+	font-size: 4rem;
 }
 
 .flex-container {
@@ -49,7 +60,27 @@ body {
 	flex-shrink: 1;
 	flex-basis: 12.5rem;*/
 	flex: 1 1 12.5rem;
-	padding: 10% 0;
+	padding: 10% 2%;
+}
+
+.btn {
+	border: solid 1px white;
+	background: none;
+	color: white;
+	border-radius: 0.3125rem;
+	padding: 1rem;
+	font-size: 1rem;
+	text-decoration: none;
+	-webkit-transition: background 0.5s, border 0.5s, color 0.5s; /* Safari */
+    transition: background 0.5s, border 0.5s color 0.5s;
+}
+
+.btn:hover {
+	background: #F4C430;
+	border: solid 1px #F4C430;
+	color: #1A1110;
+	-webkit-transition: background 0.5s, border 0.5s, color 0.5s; /* Safari */
+    transition: background 0.5s, border 0.5s color 0.5s;
 }
 
 /*SPECIFIC*/
@@ -65,32 +96,32 @@ body {
 }
 
 .its-a-me h2 {
-	font-size: 4rem;
+	font-size: 5rem;
 }
 
 .mantra {
 	order: 2;
-	background: #E25822;
+	background: #932724;
 	font-size: 2rem;
 }
 
 .whomIdoUX {
-	background: #ff6700;
+	background: #E34234;
 }
 
 .howIdoUX {	
-	background: orange;
+	background: #F4C430;
 }
 
 .whenIdoUX {
-	background: #ff7800;
+	background: #E25822;
 }
 
 .whoamI {
-	background: #E25822;
+	background: #B02222;
 	font-size: 3rem;
 }
 
 .contactme {
-	background: #932724;
+	background: #1A1110;
 }
