@@ -98,7 +98,7 @@ body {
 .mantra {
 	order: 2;
 	background: #932724;
-	font-size: 3rem;
+	font-size: 2rem;
 }
 
 .whomIdoUX {
@@ -124,8 +124,8 @@ body {
 
 /*BREAKPOINT RULES*/
 @media screen and (min-width: 1024px) {
-	h1 {
-		font-size: 4rem;
+	mantra {
+		font-size: 3rem;
 	}
 	
 	.its-a-me h2 {
