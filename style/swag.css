@@ -27,14 +27,6 @@ body {
 	color: white;
 	margin: 0;
 	padding: 0;
-	/*Experiment for fixed background*/
-	background: url("../images/mars-nasa.jpg") no-repeat center center fixed; /*Image from: nasa[.]gov/mission_pages/msl/multimedia/pia14293-amended.html */
-    -webkit-background-size: cover; 
-    -moz-background-size: cover; 
-    -o-background-size: cover; 
-    background-size: cover; 
-	/*End of Experiment*/
-
 }
 
 .flex-container {
@@ -91,14 +83,14 @@ body {
 
 /*SPECIFIC*/
 
-/*.its-a-me, .whoamI {
-	background: url("../images/mars-nasa.jpg") no-repeat center center fixed; /*Image from: nasa[.]gov/mission_pages/msl/multimedia/pia14293-amended.html 
+.its-a-me, .whoamI {
+	background: url("../images/mars-nasa.jpg") no-repeat center center fixed; /*Image from: nasa[.]gov/mission_pages/msl/multimedia/pia14293-amended.html */
     -webkit-background-size: cover; 
     -moz-background-size: cover; 
     -o-background-size: cover; 
     background-size: cover; 
 }
-*/
+
 .its-a-me {
 	order: 1;
 }
