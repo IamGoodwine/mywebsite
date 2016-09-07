@@ -1,0 +1,147 @@
+/*Author: Marco Buonvino*/
+
+/*GENERAL*/
+
+/*Palette: MARS
+
+	#F4C430 Saffron
+	#E25822 Flame
+	#E2725B Terra Cotta
+	#E34234 Vermillion
+	#B02222 Fire Brick
+	#932724 Auburn
+	#1A1110 Licorice
+	#4B3621 Cafe Noir
+	#C2B280 Ecru
+	#F3E5AB Vanilla
+	#F5F5DC Beige
+	#FFFFFF White
+*/
+
+body {
+	background: #1A1110;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size: 1.5rem;
+	line-height: 1.5;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+.flex-container {
+	display:flex;
+	/*flex-direction: row;
+	flex-wrap: wrap;*/
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: center;
+}
+
+.flex-item {
+	text-align: center;
+	padding: 0 1rem;
+}
+
+.big-card {
+	/*flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 100%;*/
+	flex: 1 1 100%;
+	padding: 20% 2%;
+}
+
+
+.small-card {
+	/*flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 20rem;*/
+	flex: 1 1 20rem;
+	padding: 20% 2%;
+}
+
+.btn {
+	border: solid 1px white;
+	background: none;
+	color: white;
+	border-radius: 0.3125rem;
+	padding: 1rem;
+	font-size: 1rem;
+	text-decoration: none;
+	-webkit-transition: background 0.5s, border 0.5s, color 0.5s; /* Safari */
+    transition: background 0.5s, border 0.5s color 0.5s;
+}
+
+.btn:hover {
+	background: #F4C430;
+	border: solid 1px #F4C430;
+	color: #1A1110;
+	-webkit-transition: background 0.5s, border 0.5s, color 0.5s; /* Safari */
+    transition: background 0.5s, border 0.5s color 0.5s;
+}
+
+/*SPECIFIC*/
+
+.its-a-me, .whoamI {
+	background: url("../images/mars-nasa.jpg") no-repeat center center fixed; /*Image from: nasa[.]gov/mission_pages/msl/multimedia/pia14293-amended.html */
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover; 
+}
+
+.its-a-me {
+	order: 1;
+}
+
+.its-a-me h2 {
+	font-size: 4rem;
+}
+
+.mantra {
+	order: 2;
+	background: #932724;
+	font-size: 2rem;
+}
+
+.whomIdoUX {
+	background: #E34234;
+}
+
+.howIdoUX {	
+	background: #B02222;
+}
+
+.whenIdoUX {
+	background: #E25822;
+}
+
+.whoamI {
+	font-size: 3rem;
+	padding: 16% 2%;
+}
+
+.contactme {
+	background: #1A1110;
+}
+
+/*BREAKPOINT RULES*/
+@media screen and (min-width: 1024px) {
+	mantra {
+		font-size: 3rem;
+	}
+	
+	.its-a-me h2 {
+		font-size: 5rem;
+	}
+	
+	.big-card, .small-card {
+		padding: 10% 2%;
+	}
+	
+	.whoamI {
+		font-size: 4rem;
+		padding: 20% 2%;
+	}
+}
