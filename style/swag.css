@@ -132,6 +132,10 @@ body {
 	margin-bottom: 5rem;
 }
 
+.fa-icons {
+	font-family: 'fontawesome';
+}
+
 /*BREAKPOINT RULES*/
 @media screen and (min-width: 1024px) {
 	mantra {
