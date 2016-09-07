@@ -126,6 +126,12 @@ body {
 	background: #1A1110;
 }
 
+.avatar {
+	height: 8rem;
+	border-radius: 100%;
+	margin-bottom: 8rem;
+}
+
 /*BREAKPOINT RULES*/
 @media screen and (min-width: 1024px) {
 	mantra {
